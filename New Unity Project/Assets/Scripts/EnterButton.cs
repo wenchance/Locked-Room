@@ -12,7 +12,7 @@ public class EnterButton : MonoBehaviour {
 	public void CheckField ()
 	{ if (infield.text == correctText) 
 		{
-			ui.SetActive (false);
+			//ui.SetActive (false);
 			winObject.SetActive (true);
 		}
 	}
